@@ -1,8 +1,18 @@
-# My n8n Web - Automated Deployment to Fly.io
+# My n8n Web - Automated Deployment (100% Free!)
 
-This repository contains a fully automated n8n v2 deployment setup using Docker, GitHub Actions, and Fly.io. Once configured, n8n will run 24/7 with a permanent public web link.
+This repository contains a fully automated n8n deployment setup using Docker, GitHub Actions, and **Render.com**. 
 
-> **🚀 Quick Start**: See [SETUP_GUIDE.md](SETUP_GUIDE.md) for step-by-step instructions!
+## 🎉 Why This Setup?
+
+- ✅ **100% FREE** - No credit card required!
+- ✅ **Easy Setup** - 5 minutes to deploy
+- ✅ **Permanent HTTPS Link** - Professional URL
+- ✅ **Auto-Deploy** - Push to GitHub, auto-deploys
+- ✅ **750 Free Hours/Month** - More than enough for 24/7
+
+> **🚀 Quick Start**: See [RENDER_SETUP_AR.md](RENDER_SETUP_AR.md) for step-by-step instructions in Arabic!
+> 
+> **📘 English Guide**: See [SETUP_GUIDE.md](SETUP_GUIDE.md)
 
 ## 🚀 Features
 
