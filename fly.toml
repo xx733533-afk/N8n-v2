@@ -1,0 +1,31 @@
+# fly.toml app configuration file generated for n8n deployment
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+
+app = "my-n8n-web"
+primary_region = "iad"
+
+[build]
+
+[http_service]
+  internal_port = 5678
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 512
+
+[env]
+  N8N_HOST = "0.0.0.0"
+  N8N_PORT = "5678"
+  N8N_PROTOCOL = "https"
+  WEBHOOK_URL = "https://my-n8n-web.fly.dev/"
+  GENERIC_TIMEZONE = "UTC"
+
+[[mounts]]
+  source = "n8n_data"
+  destination = "/home/node/.n8n"
