@@ -2,6 +2,8 @@
 
 This repository contains a fully automated n8n v2 deployment setup using Docker, GitHub Actions, and Fly.io. Once configured, n8n will run 24/7 with a permanent public web link.
 
+> **🚀 Quick Start**: See [SETUP_GUIDE.md](SETUP_GUIDE.md) for step-by-step instructions!
+
 ## 🚀 Features
 
 - **n8n v2**: Latest stable version of n8n workflow automation
